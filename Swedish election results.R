@@ -7,7 +7,7 @@ pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes, cowplot, ggvis,
                htmlwidgets, modelsummary, gtsummary, esquisse, 
                kableExtra, gt, sas7bdat, ggtext, patchwork, imager)
 
-#Two ways of coding the same thing
+#Two ways of coding the same thing slightly different results
 library(readxl)
 Elec_res <- read_excel("C:/Users/nejde/Desktop/Valresultat riksdagen.xlsx")
 View(Elec_res)
